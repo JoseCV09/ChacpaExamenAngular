@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(assets/code.jpg);
+    background-size: cover;
+    background-position: unset;
+    font-family: sans-serif;
+}

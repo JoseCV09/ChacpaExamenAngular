@@ -1,0 +1,16 @@
+<div class="container col-m-6">
+    <div class="card" style="margin-top:40px;">
+        <div class="card-header">
+            <h3>Agregar Categorias</h3>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Categoria:</label>
+                    <input type="text" class="form-control" [(ngModel)]="categoria.nombre_cat" name="nombre_cat">
+                </div>
+                <button type="button" (click)="AgregarCategoria()" class="btn btn-danger">Registrar</button>
+            </form>
+        </div>
+    </div>
+</div>

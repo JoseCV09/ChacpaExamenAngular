@@ -1,0 +1,18 @@
+
+<div class="container col-m-6">
+    <div class="card" style="margin-top:40px;">
+        <div class="card-header">
+            <h3>Modificar Categoria</h3>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Categoria:</label>
+                    <input [(ngModel)]="categoria.nombre_cat" name="nombre_cat" type="text" class="form-control">
+                    <small id="emailHelp" class="form-text text-muted">Aquí puede el Usuario editar la categoría.</small>
+                </div>
+                <button (click)="ActualizarCategoria(categoria)"type="button" class="btn btn-outline-success">Actualizar</button>
+            </form>
+        </div>
+    </div>
+</div>
